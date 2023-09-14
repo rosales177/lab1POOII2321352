@@ -1,13 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.observer.clases;
 
-/**
- *
- * @author rosales1015
- */
-public class Fanatico {
-    
+class Fanatico implements Observer {
+    private String nombre;
+    private String apellido;
+
+    public Fanatico(String nombre, String apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+
+    @Override
+    public void update(String mensaje) {
+        System.out.println(nombre + " " + apellido + " recibio la notificacion: " + mensaje);
+    }
 }
