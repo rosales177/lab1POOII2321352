@@ -9,5 +9,5 @@ package com.strategy.clases;
  * @author rosales1015
  */
 public interface PaymentStrategy {
-    
-}
+   
+} 
