@@ -4,7 +4,7 @@
  */
 package com.strategy.clases;
 
-class PaymentContext {
+public class PaymentContext {
     private PaymentStrategy paymentStrategy;
     private String customerName;
     private String paymentMethod;
