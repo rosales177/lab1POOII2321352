@@ -4,10 +4,24 @@
  */
 package com.strategy.clases;
 
-/**
- *
- * @author rosales1015
- */
-public class ProcesoPago {
-    
+class PaymentContext {
+    private PaymentStrategy paymentStrategy;
+    private String customerName;
+    private String paymentMethod;
+
+    public PaymentContext(PaymentStrategy paymentStrategy, String customerName, String paymentMethod) {
+        this.paymentStrategy = paymentStrategy;
+        this.customerName = customerName;
+        this.paymentMethod = paymentMethod;
+    }
+
+    public double processPayment(double productPrice) {
+        return paymentStrategy.pay(productPrice);
+    }
+
+    public String getPaymentDetails() {
+        return "Nombre del cliente: " + customerName + "\nMetodo de Pago: " + paymentMethod;
+    }
 }
+    
+
