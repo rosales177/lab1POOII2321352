@@ -1,6 +1,6 @@
 package com.observer.clases;
 
-class Fanatico implements Observer {
+public class Fanatico implements Observer {
     private String nombre;
     private String apellido;
 
