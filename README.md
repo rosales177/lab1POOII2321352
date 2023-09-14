@@ -9,6 +9,8 @@
 
 ##### Diagrama de clases Patron de Diseño Observer
 
-![Image text](https://github.com/rosales177/lab1POOII2321352/blob/develop/diagramas/Diagrama%20Observe.jpeg)
+![Image Text](./diagramas//Diagrama%20Observe.jpeg)
 
 ##### Diagrama de clases Patron de Diseño Strategy
+
+![Image text](./diagramas/Diagrama%20Strategy.jpeg)
