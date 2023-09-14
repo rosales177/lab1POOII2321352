@@ -11,3 +11,8 @@ package com.strategy.clases;
 public interface PaymentStrategy {
     double pay(double amount);
 }
+// Implementaciones de las estrategias de pago
+
+
+
+
